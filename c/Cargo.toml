@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name = "norm"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+name = "norm"
+
+[dependencies]
+shared = {path = "../shared"}
+
+[build-dependencies]
+cbindgen = "0.20.0"

@@ -1,0 +1,9 @@
+[package]
+authors = ["Bernd Kaiser"]
+edition = "2021"
+name = "shared"
+version = "0.1.0"
+
+[dependencies]
+unicode-normalization = "0.1.19"
+unicode-security = "0.0.5"

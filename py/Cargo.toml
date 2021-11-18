@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "norm"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+name = "normalizer"
+
+[dependencies]
+shared = {path = "../shared"}
+
+[dependencies.pyo3]
+features = ["extension-module", "abi3-py36"]
+#features = ["extension-module"]
+version = "0.15.0"

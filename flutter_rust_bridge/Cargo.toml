@@ -1,0 +1,12 @@
+[package]
+name = "flutter_rust_bridge"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "flutter_rust_bridge_example"
+crate-type = ["cdylib"]
+
+[dependencies]
+flutter_rust_bridge = "1"
+shared = {path = "../shared"}
